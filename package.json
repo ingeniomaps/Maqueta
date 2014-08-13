@@ -1,0 +1,25 @@
+{
+  "name": "maqueta",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "dependencies": {
+    "express": "~3.4.8",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "jade": "~1.3.0"
+  },
+  "subdomain": "probandoaplicacion",
+  "domains": [
+    "probandoaplicacion.jit.su",
+    "www.probandoaplicacion.jit.su"
+  ],
+  "engines": {
+    "node": "0.10.x"
+  }
+}
