@@ -10,10 +10,11 @@ npm install
 
 ## Configuración
 
-Renombrar config.sample.json a config.json y configurar las opciones
+configurar las opciones de config.json dependiendo de sus necesidades
 
 ## Correr
 
 ```
-node server.js
+npm start // O 
+node servidor.js
 ```
